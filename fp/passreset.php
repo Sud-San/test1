@@ -16,12 +16,16 @@
                 $result=mysqli_query($conn,$str);
                 if($result)
                 {
-                    echo "<script>alert('Password')</script>";
+                    echo "<script>alert('Password Updated')</script>";
                 }
                 else
                 {
                     echo "<script>alert('Error')</script>";
                 }
+            }
+            else
+            {
+                echo "<script>alert('Password and Confirm Password mismatched')</script>";
             }
         }
     ?>

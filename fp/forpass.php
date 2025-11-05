@@ -33,6 +33,7 @@
     <?php
         $otp=rand(1000,9999);
         echo $otp;
+        //mail("fubin1t0kagup3@10mail.xyz","Password reset","Password reset");
     ?>
     <form action="" method="post">
         <input type="hidden" name="otp" value="<?php echo $otp?>">
