@@ -17,6 +17,7 @@
                 $_SESSION['email']=$email;
                 // mail($email,"Password reset Application","Here You can Reset Your Password");
                 header("Location:forpass.php");
+                exit();
             }
             else{
                 echo "<script>alert('Email Notmatched') </script>";
