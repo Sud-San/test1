@@ -28,7 +28,7 @@
 <body>
     <form action="" method="POST">
         <!-- Name:<input type="text" name="name"> <br> -->
-        Email:<input type="email" name="email"> <br>
+        Email:<input type="text" name="email"> <br>
         <!-- Password:<input type="password" name="password"> <br> -->
         <input type="submit" name="submit" value="Forget password"> <br>
         <!-- <input type="submit" value="Submit" > -->
